@@ -88,7 +88,7 @@ int OnInit()
    ArraySetAsSeries(g_trendBuffer, true);
    ArraySetAsSeries(g_waveBuffer, true);
    ArraySetAsSeries(g_volumeBuffer, true);
-
+   
    PlotIndexSetInteger(0, PLOT_DRAW_TYPE, DRAW_HISTOGRAM);
    PlotIndexSetInteger(0, PLOT_LINE_WIDTH, 3);
    PlotIndexSetInteger(0, PLOT_LINE_COLOR, clrLimeGreen);
